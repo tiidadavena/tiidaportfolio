@@ -12,6 +12,7 @@
  */
 :root {
   --bs-blue: #1D809F;
+  /* cor sec */
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -20,6 +21,7 @@
   --bs-yellow: #ecb807;
   --bs-green: #198754;
   --bs-teal: #20c997;
+  /* cor sec */
   --bs-cyan: #0dcaf0;
   --bs-white: #fff;
   --bs-gray: #6c757d;
@@ -3208,8 +3210,8 @@ textarea.form-control-lg {
   border-color: #f8f9fa;
 }
 .btn-light:hover {
-  color: #000;
-  background-color: #f9fafb;
+  color: #f8f9fa;
+  background-color: #141414;
   border-color: #f9fafb;
 }
 .btn-check:focus + .btn-light, .btn-light:focus {
@@ -7708,7 +7710,7 @@ textarea.form-control-lg {
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: var(--bs-indigo);
 }
 
 .text-success {
@@ -11326,7 +11328,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: var(--bs-indigo);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -11431,12 +11433,12 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #6610f2;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #0dcaf0;
   text-decoration: none;
 }
 
